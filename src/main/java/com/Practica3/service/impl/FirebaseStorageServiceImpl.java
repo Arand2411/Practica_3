@@ -1,6 +1,5 @@
 
 package com.Practica3.service.impl;
-
 import com.Practica3.service.FirebaseStorageService;
 import com.google.auth.Credentials;
 import com.google.auth.ServiceAccountSigner;
@@ -18,6 +17,8 @@ import java.util.concurrent.TimeUnit;
 import org.springframework.core.io.ClassPathResource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+
+//Para subir la imagen del firebase
 
 @Service
 public class FirebaseStorageServiceImpl implements FirebaseStorageService{
