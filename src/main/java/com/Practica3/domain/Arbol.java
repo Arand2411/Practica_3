@@ -18,8 +18,8 @@ public class Arbol {
     private String nombreComun;
     private String tipoFlor;
     private String durezaMadera;
-    private int campoNumerico;
-    private String campoTexto;
+    private int altura;
+    private String region;
     private boolean activo;
     
     public Arbol(){

@@ -26,9 +26,13 @@ CREATE TABLE arbol (
   nombre_comun VARCHAR(30) NOT NULL,
   tipo_flor VARCHAR(30) NOT NULL,
   dureza_madera VARCHAR(30) NOT NULL,
-  campo_numerico INT,
-  campo_texto VARCHAR(30)
+  altura INT,
+  region VARCHAR(30)
 )
 ENGINE = InnoDB
 DEFAULT CHARACTER SET = utf8mb4;
 
+INSERT INTO arbol (id,ruta_imagen,nombre_comun,tipo_flor,dureza_madera,altura,region) VALUES 
+('1','https://www.tijuana.gob.mx/webpanel/catalogoPlantas/categorias/202181811332789.jpg','Pino','Diclinas','Madera blanda','30','Bosques templados'),
+('2','https://www.britannica.com/plant/giant-sequoia','sequoia','Monotípico','Corteza suave y gruesa','91','Zona occidental'),
+('3','https://www.tijuana.gob.mx/webpanel/catalogoPlantas/categorias/202181811332789.jpg','Manzano','Hermafroditas  ','Madera densa ','10 ','Zonas templados');

@@ -10,5 +10,11 @@ function readURL(input){
         reader.readAsDataURL(input.files[0]);
     }
 }
+function addCard (formulario){
+    var valor = formulario.elements[0].value;
+    var url = '/carrito/agregar';
+    url = url+ '/' + valor;
+    $("resultBlock").load(url);
+}
 
 
