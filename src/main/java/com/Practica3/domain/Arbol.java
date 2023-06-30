@@ -20,6 +20,7 @@ public class Arbol {
     private String durezaMadera;
     private int campoNumerico;
     private String campoTexto;
+    private boolean activo;
     
     public Arbol(){
 

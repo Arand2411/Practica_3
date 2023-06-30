@@ -21,7 +21,7 @@ public class ArbolServiceImpl implements ArbolService{
     public List <Arbol> getArboles(boolean activos){
         var lista = ArbolDao.findAll();
         if(activos){
-            lista.removeIf(e -> !e.isActive());
+            lista.removeIf(e -> !e.isActivo());
         }
         return lista;
     }
